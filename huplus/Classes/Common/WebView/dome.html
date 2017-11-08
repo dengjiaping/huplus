@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <style type="text/css">
+        body {
+            font-size: 20px;
+        }
+        input {
+            border: 1px solid #000;
+            height: 20px;
+        }
+        button {
+            border: 1px solid #000;
+            width: 100px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- <h2>商家详情跳转</h2>
+<label>商家ID:</label><input type="text" name="" id="merchant">
+<br>
+<button  onclick="go('merchant')">确认</button>
+<hr>
+<h2>卡详情跳转</h2>
+<label>卡标题:</label><input type="text" name="" id="title" value="卡">
+<br>
+<label>卡ID:</label><input type="text" name="" id="product">
+<br>
+<button  onclick="go('product')">确认</button> -->
+<label>token:</label><input type="text" name="" id="user">
+<br>
+<button  onclick="go('share')">点击邀请</button>
+<script type="text/javascript">
+    var matchs = location.search.match(/token=(\w*)/);
+    var $user = document.getElementById('user');
+    console.log(matchs)
+    $user.value = matchs[1];
+
+    function go(type) {
+        var $dom = document.getElementById(type);
+        var $title = document.getElementById('title');
+        var params;
+        if(type == 'merchant') {
+            params = {
+                merId: $dom.value
+            }
+        }else if(type == 'product') {
+            params = {
+                cardId: $dom.value,
+                title: $title.value
+
+            }
+        }else if(type == 'share') {
+            params = {
+                logo: 'http://cdn.wjika.com//Assets/activity/1w100-52.jpg',
+                url: 'http://e.wjika.com/wjika.html',
+                title: '标题在这里',
+                desc: '描述在这里'
+            }
+        }else if(type == 'rechargeBun') {
+            params = {}
+        }
+        console.log(type,  JSON.stringify( params ));
+        window.wjika && window.wjika.open && window.wjika.open(JSON.stringify( params ))
+    }
+</script>
+</body>
+</html>

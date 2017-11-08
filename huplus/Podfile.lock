@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (2.9.1)
+  - Bugly (2.4.6)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - JCore (1.1.3)
+  - JPush (3.0.2):
+    - JCore (~> 1.1.1)
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (3.1.0)
+  - Reachability (3.2)
+  - SDCycleScrollView (1.65):
+    - SDWebImage (~> 3.7)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UMengAnalytics-NO-IDFA (4.0.3)
+  - ZXingObjC (3.1.0):
+    - ZXingObjC/All (= 3.1.0)
+  - ZXingObjC/All (3.1.0)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.1.0)
+  - BaiduMapKit (= 2.9.1)
+  - Bugly (= 2.4.6)
+  - FMDB (= 2.6.2)
+  - JPush (= 3.0.2)
+  - MBProgressHUD (= 0.9.1)
+  - MJRefresh (= 3.1.0)
+  - Reachability (= 3.2)
+  - SDCycleScrollView (= 1.65)
+  - SDWebImage (= 3.7.6)
+  - UMengAnalytics-NO-IDFA (= 4.0.3)
+  - ZXingObjC (= 3.1.0)
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: 97d2d44b41a876de2371fb91ddf78cdf84dafa05
+  Bugly: 7756e72c59387b0d490f46e83ab458ae94ee7fba
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  JCore: dff3c50e9a7522a508cd9096ca79165968e1aed3
+  JPush: 01a693fafe51b93eafc2e368bbc7a7cc07e12ce4
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UMengAnalytics-NO-IDFA: 173a5a2541536225f4c947935560975136f18a34
+  ZXingObjC: bf15b3814f7a105b6d99f47da2333c93a063650a
+
+PODFILE CHECKSUM: 17635b5be40deb4a78f3c7593ed3b4a0bf4799a9
+
+COCOAPODS: 1.2.0.beta.1

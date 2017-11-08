@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  HuPlus
+//
+//  Created by XT Xiong on 2016/12/15.
+//  Copyright © 2016年 WJIKA. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "WJNavigationController.h"
+#import "UINavigationBar+Awesome.h"
+#import "WJViewController.h"
+
+
+#import "WJConstKey.h"
+#import "WJBlockDefine.h"
+#import "WJColorDefine.h"
+#import "WJEnumType.h"
+#import "WJFont.h"
+#import "WJJudgementDefine.h"
+#import "WJShareSDKAppKeyHeader.h"
+#import "WJSDKAppKeyHeader.h"
+
+#import "WJUtilityMethod.h"
+#import "WJGlobalVariable.h"
+
+#import "UIView+HandyAutoLayout.h"
+#import "UIView+LayoutMethods.h"
+
+#import "WJRefreshTableView.h"
+
+#import "TKAlertCenter.h"
+
+#import "UILabel+CountHeightAndWidth.h"
+
+#import "NSString+CoculationSize.h"
+
+#import "UMMobClick/MobClick.h"
+
+
+#endif /* PrefixHeader_pch */
